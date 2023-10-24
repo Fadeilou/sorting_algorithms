@@ -38,7 +38,7 @@ void countingSort(int *array, size_t size, int exp) {
 
 /* Radix Sort function */
 void radix_sort(int *array, size_t size) {
-    if (size < 2) {
+    if (size < 2 || array == NULL) {
         return;
     }
 
